@@ -15,7 +15,7 @@ body {
   margin: 20% auto;
   width: 50vw;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .report {
@@ -25,6 +25,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 50%;
+  margin-right: 5%;
   text-align: center;
 }
 
@@ -73,4 +74,73 @@ body {
   margin-bottom: 20px;
   font-size: 0.8rem;
   width: 80%;
+}
+
+.summary {
+  width: 45%;
+}
+
+.summary-header {
+  margin: 15% 0;
+  color: hsl(224, 30%, 27%);
+  font-size: 1rem;
+}
+
+.summary-list {
+  margin-bottom: 15%;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 2.3rem;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.list-item img {
+  margin-right: 5%;
+}
+
+.list-item p:first-of-type {
+  margin-right: 20%;
+}
+
+.list-item p:last-of-type {
+  font-size: 0.7rem;
+  color: hsl(224, 30%, 27%);
+  font-weight: 600;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+
+.continue {
+  display: flex;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  width: 90%;
+  border-radius: 45px;
+  height: 2.3rem;
+  align-items: center;
+  justify-content: center;
 }
