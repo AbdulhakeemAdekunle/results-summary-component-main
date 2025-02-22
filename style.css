@@ -13,7 +13,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   margin: 20% auto;
-  width: 50vw;
+  width: 40vw;
   display: flex;
   align-items: flex-start;
 }
@@ -81,13 +81,13 @@ body {
 }
 
 .summary-header {
-  margin: 15% 0;
+  margin: 5% 0;
   color: hsl(224, 30%, 27%);
   font-size: 1rem;
 }
 
 .summary-list {
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .list-item {
@@ -95,9 +95,9 @@ body {
   align-items: center;
   width: 90%;
   height: 2.3rem;
-  margin: 10px 0;
-  border-radius: 10px;
+  margin: 5% 0;
   padding: 5%;
+  border-radius: 10px;
 }
 
 .list-item img {
